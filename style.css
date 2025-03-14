@@ -1,36 +1,31 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
 }
-
-.header {
-    background: #2D6A4F;
+.hero {
+    background-color: #215D4F;
     color: white;
-    padding: 50px 0;
+    padding: 60px 0;
+    text-align: center;
+    position: relative;
 }
-
-.profile-img {
-    width: 150px;
+.hero img {
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 5px solid white;
 }
-
-.highlight {
-    color: yellow;
-}
-
 .stats {
-    padding: 50px 0;
-    background: #F8F9FA;
+    text-align: center;
+    padding: 20px;
 }
-
-.skills img {
-    width: 50px;
-    margin-bottom: 10px;
+.skills {
+    text-align: center;
+    padding: 40px 0;
 }
-
-.skills span {
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    color: #2D6A4F;
+.skill-box {
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
