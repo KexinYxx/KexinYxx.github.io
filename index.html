@@ -3,128 +3,476 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Kexin Yuan - MBA Graduate | Job Seeker</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
-        }
-        .hero {
-            background-color: #215D4F;
-            color: white;
-            padding: 60px 0;
-            text-align: center;
-            position: relative;
-        }
-        .hero img {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            border: 5px solid white;
-        }
-        .stats {
-            text-align: center;
-            padding: 20px;
-        }
-        .skills {
-            text-align: center;
-            padding: 40px 0;
-        }
-        .skill-box {
-            padding: 20px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-    </style>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #215D4F;">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">My Blog</a>
+            <a class="navbar-brand" href="#home">Kexin Yuan</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <div class="hero">
-        <img src="image/profile.jpg" alt="Profile Picture">
-        <h1>Hey, my name is <strong>Kexin Yuan</strong></h1>
-        <p>Web Developer & Designer</p>
-    </div>
-
-    <!-- Stats Section -->
-    <div class="container stats">
-        <div class="row">
-            <div class="col-md-4">
-                <h2>10+</h2>
-                <p>Years of Experience</p>
-            </div>
-            <div class="col-md-4">
-                <h2>399</h2>
-                <p>Projects Done</p>
-            </div>
-            <div class="col-md-4">
-                <h2>89</h2>
-                <p>Clients</p>
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <div class="hero-badge">MBA Graduate</div>
+                        <h1 class="hero-title">Hi, I'm <span class="highlight">Kexin Yuan</span></h1>
+                        <h2 class="hero-subtitle">Business Professional | Financial Analyst | Strategic Thinker</h2>
+                        <p class="hero-description">
+                            A passionate MBA graduate with a strong foundation in business administration, 
+                            financial analysis, and strategic management. Currently seeking opportunities 
+                            where I can apply my analytical skills and business acumen to drive growth and innovation.
+                        </p>
+                        <div class="hero-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>St. John's, NL, Canada</span>
+                        </div>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn btn-primary btn-lg">Get In Touch</a>
+                            <a href="#about" class="btn btn-outline-light btn-lg ms-3">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="image/profile.jpg" alt="Kexin Yuan" class="hero-image">
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">MBA Graduate | Financial Professional | Strategic Analyst</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h3>Professional Summary</h3>
+                        <p>
+                            I am a dedicated MBA graduate with a proven track record in financial analysis, 
+                            business consulting, and strategic planning. My experience spans across various 
+                            industries including consulting, investment, and financial services.
+                        </p>
+                        <p>
+                            With strong leadership skills developed through team management and consulting 
+                            experience, I bring a unique combination of analytical thinking, strategic vision, 
+                            and practical business acumen to every project.
+                        </p>
+                        <div class="highlights">
+                            <h4>Highlights of Qualifications</h4>
+                            <ul>
+                                <li>Master of Business Administration with 3.8/4 GPA</li>
+                                <li>Leadership skills and management experiences as consulting intern</li>
+                                <li>Market research and analytical skills through coursework and internship</li>
+                                <li>Proficiency in financial software QuickBooks and CRM systems</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-stats">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="stat-card">
+                                    <h3>3.8/4</h3>
+                                    <p>MBA GPA</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="stat-card">
+                                    <h3>5+</h3>
+                                    <p>Years Experience</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="stat-card">
+                                    <div class="stat-icon">
+                                    <i class="fas fa-globe"></i>
+                                    </div>
+                                    <p>Bilingual</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="stat-card">
+                                    <div class="stat-icon">
+                                    <i class="fas fa-certificate"></i>
+                                    </div>
+                                    <p>Certified</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">Education</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="education-item">
+                        <div class="education-timeline">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-line"></div>
+                        </div>
+                        <div class="education-content">
+                            <div class="education-year">2023 - 2025</div>
+                            <h3>Master of Business Administration</h3>
+                            <div class="education-school">Memorial University of Newfoundland</div>
+                            <div class="education-gpa">GPA: 3.8/4</div>
+                            <div class="education-focus">
+                                <span>Strategic Management</span>
+                                <span>Financial Analysis</span>
+                                <span>Market Research</span>
+                                <span>Leadership</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="education-item">
+                        <div class="education-timeline">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-line"></div>
+                        </div>
+                        <div class="education-content">
+                            <div class="education-year">2019 - 2023</div>
+                            <h3>Bachelor of Accounting (Bilingual CPA)</h3>
+                            <div class="education-school">Guangzhou College of South China University of Technology</div>
+                            <div class="education-gpa">GPA: 3.66/4</div>
+                            <div class="education-focus">
+                                <span>Financial Accounting</span>
+                                <span>Audit & Assurance</span>
+                                <span>Taxation</span>
+                                <span>Business Law</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">Work Experience</h2>
+                </div>
+            </div>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-date">
+                        <span class="month">Sep - Dec</span>
+                        <span class="year">2024</span>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Consulting Intern</h3>
+                        <div class="company">NutraForge</div>
+                        <ul class="experience-details">
+                            <li>Led a team of 5 interns, creating structured work plans that resulted in actionable outcomes</li>
+                            <li>Executed social media strategy by creating and scheduling content, boosting audience engagement</li>
+                            <li>Conducted in-depth market and competitor analysis to identify company strengths and weaknesses</li>
+                            <li>Consolidated branding and marketing content ideas and offered strategic insights</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-date">
+                        <span class="month">Sep 2023 -</span>
+                        <span class="year">Present</span>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Business Assistant</h3>
+                        <div class="company">Bitforest Investment Ltd.</div>
+                        <ul class="experience-details">
+                            <li>Managed payroll process, ensured timely and accurate employee payment</li>
+                            <li>Used QuickBooks to manage financial transactions, including recording expenses and generating invoices</li>
+                            <li>Supported market research efforts by collecting and analyzing data on industry trends</li>
+                            <li>Maintained compliance with relevant regulations and financial standards</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-date">
+                        <span class="month">Jan - Feb</span>
+                        <span class="year">2023</span>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Audit Intern</h3>
+                        <div class="company">Moore Stephens Da Hua CPAs</div>
+                        <ul class="experience-details">
+                            <li>Prepared audit documentation for 2 Chinese state-owned companies</li>
+                            <li>Managed bank confirmation process completion and communicated with client financial departments</li>
+                            <li>Conducted on-site inventory verification, ensuring accuracy and adherence to audit standards</li>
+                            <li>Focused on sales cycle, cash flow, financing and investment cycles analysis</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-date">
+                        <span class="month">Nov - Jan</span>
+                        <span class="year">2022-23</span>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Financial Assistant</h3>
+                        <div class="company">PromoCollection, China</div>
+                        <ul class="experience-details">
+                            <li>Conducted marketing research, compared prices, and suggested price matches</li>
+                            <li>Used Xero to issue invoices and send to clients</li>
+                            <li>Used CRM system to attract and generate high-quality leads</li>
+                            <li>Coordinated with purchasing department, tracking orders and making transaction reports</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Skills Section -->
-    <div class="container skills">
-        <div class="row">
-            <div class="col-md-2">
-                <div class="skill-box">
-                    <h5>XD</h5>
-                    <p>99%</p>
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">Professional Skills</h2>
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="skill-box">
-                    <h5>Illustrator</h5>
-                    <p>95%</p>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="skill-group">
+                        <h3><i class="fas fa-chart-line"></i> Financial Analysis</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <span class="skill-name">QuickBooks</span>
+                                <div class="skill-level">
+                                    <div class="skill-bar" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Financial Modeling</span>
+                                <div class="skill-level">
+                                    <div class="skill-bar" style="width: 88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Audit & Compliance</span>
+                                <div class="skill-level">
+                                    <div class="skill-bar" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-2">
-                <div class="skill-box">
-                    <h5>Photoshop</h5>
-                    <p>97%</p>
+                <div class="col-lg-4">
+                    <div class="skill-group">
+                        <h3><i class="fas fa-tools"></i> Business Tools</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <span class="skill-name">Microsoft Office</span>
+                                <div class="skill-level">
+                                    <div class="skill-bar" style="width: 92%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">CRM Systems</span>
+                                <div class="skill-level">
+                                    <div class="skill-bar" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Xero</span>
+                                <div class="skill-level">
+                                    <div class="skill-bar" style="width: 80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-2">
-                <div class="skill-box">
-                    <h5>Invision</h5>
-                    <p>85%</p>
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="skill-box">
-                    <h5>Sketch</h5>
-                    <p>95%</p>
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="skill-box">
-                    <h5>Figma</h5>
-                    <p>98%</p>
+                <div class="col-lg-4">
+                    <div class="skill-group">
+                        <h3><i class="fas fa-users"></i> Soft Skills</h3>
+                        <div class="skill-list">
+                            <div class="skill-item">
+                                <span class="skill-name">Leadership</span>
+                                <div class="skill-level">
+                                    <div class="skill-bar" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Team Management</span>
+                                <div class="skill-level">
+                                    <div class="skill-bar" style="width: 88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Bilingual (EN/CN)</span>
+                                <div class="skill-level">
+                                    <div class="skill-bar" style="width: 95%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">Certificates & Awards</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="certificate-item">
+                        <div class="certificate-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="certificate-content">
+                            <h3>IPA Career College Bookkeeper Certificate</h3>
+                            <p>Professional certification in bookkeeping and financial record keeping, demonstrating expertise in accounting principles and practices.</p>
+                            <div class="certificate-tags">
+                                <span>Bookkeeping</span>
+                                <span>Financial Records</span>
+                                <span>Accounting</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="certificate-item">
+                        <div class="certificate-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="certificate-content">
+                            <h3>Alibaba Business Data Analyst Certificate</h3>
+                            <p>Specialization in Power BI Business Operation and data analysis, showcasing advanced analytical and visualization skills.</p>
+                            <div class="certificate-tags">
+                                <span>Data Analysis</span>
+                                <span>Power BI</span>
+                                <span>Business Intelligence</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">I'm actively seeking new opportunities and would love to connect</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <h3>Job Preferences</h3>
+                        <ul class="job-preferences">
+                            <li><i class="fas fa-briefcase"></i> Financial Analyst</li>
+                            <li><i class="fas fa-chart-bar"></i> Business Analyst</li>
+                            <li><i class="fas fa-project-diagram"></i> Management Consultant</li>
+                            <li><i class="fas fa-map-marker-alt"></i> St. John's, NL or Remote</li>
+                        </ul>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>ykx95907@gmail.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+1 (778) 241-5599</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn Profile</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>St. John's, NL, Canada</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-form">
+                        <h3>Send Message</h3>
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Position/Company" required>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>&copy; 2024 Kexin Yuan. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
