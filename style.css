@@ -6,7 +6,6 @@
 }
 
 body {
-<<<<<<< HEAD
     font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     color: #2c3e50;
@@ -884,35 +883,4 @@ body {
 .touch-device .education-card:hover,
 .touch-device .experience-card:hover {
     transform: none;
-=======
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-}
-.hero {
-    background-color: #215D4F;
-    color: white;
-    padding: 60px 0;
-    text-align: center;
-    position: relative;
-}
-.hero img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 5px solid white;
-}
-.stats {
-    text-align: center;
-    padding: 20px;
-}
-.skills {
-    text-align: center;
-    padding: 40px 0;
-}
-.skill-box {
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
->>>>>>> 79b2b986a0810e3fe90fef2fe1d13d471698d0a2
 }
